@@ -12,7 +12,7 @@ The HW part is rather simple. There is
 - a power on switsh
 - a button
 - 4 LEDs, each one with its current limiting resistor
-The schema is shown as follows
+The schema is shown in the following picture
 ![alt text](https://github.com/dariomella/ARR-V1/blob/main/ARR%20V1%20HW.png)
 ## Instructions
 When you connect the power supply all the LED flash once.
@@ -42,6 +42,9 @@ If still there is no WIFI connection the ARR interrupts the power to the router 
 - hostPingTimeout: if there is no internet connection to any of the remoteHosts after the specified timeout, the ARR interrupts the power to the router for 15 seconds and waits "rebootDelay" seconds before restarting the ARR
 
 - rebootDelay: when ther ARR interrupts the power to the router, this parameters is the amount of time to wait before restarting the ARR to allow the router to finish its reboot.
+
+The Web portal page example is shown at 
+[this link](https://github.com/dariomella/ARR-V1/blob/main/Screenshot%20%20ARR%20(Automatic%20Router%20Rebooter)%20input%20parms.png)
 
 If you connect the USB port to a computer and have the proper driver installed, you can use a teminal program (like PuTTY) to see various status messages produced by ARR
 while checking the network.  putty has to be configured with the following parameters:
